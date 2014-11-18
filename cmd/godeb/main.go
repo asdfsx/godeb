@@ -184,8 +184,8 @@ type tarballSource struct {
 }
 
 var tarballSources = []tarballSource{
-	{"https://code.google.com/p/go/downloads/list?can=1&q=linux", "//a/@href[contains(., 'go.googlecode.com')]"},
-	{"http://golang.org/dl/", "//a/@href[contains(., 'storage.googleapis.com/golang/')]"},
+	//{"https://code.google.com/p/go/downloads/list?can=1&q=linux", "//a/@href[contains(., 'go.googlecode.com')]"},
+	//{"http://golang.org/dl/", "//a/@href[contains(., 'storage.googleapis.com/golang/')]"},
 	{"http://www.golangtc.com/download", "//a/@href[contains(., '/static/go/')]"},
 }
 
